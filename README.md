@@ -8,6 +8,7 @@ and uses MATLAB's built in <I>"gpuArray"</I> function and <I>"gather"</I> functi
 <p>This is a class definition file in our ecosystem which has the preliminary data handling, this code was heavily adopted and is a modified with the aid of the previous 
   <i>droneRC</i> code that was present in the authors pool of scripts.</p>
   <p>For this script the inputs are as follows</p>
+  <p>readDD(fileName, Fs)</p>
   <p>readDD is a function class written to process data as GPU arrays</p>
   <p>Make: Drone Manufaturer</p>
   <p>Model: Drone Model</p>
@@ -19,7 +20,7 @@ and uses MATLAB's built in <I>"gpuArray"</I> function and <I>"gather"</I> functi
   <p>RawData: The data captured from the front end</p>
   <p>CroppedData: Time Applied Cropped Data to avoid Memory Issues</p>
  <p> Usage: declare fileName = 'path/to/file/filename/file'</p>
-  <p>foo = readDD(fileName);</p>
+  <p>foo = readDD(fileName, Fs);</p>
   <p>foo</p>
   plotting of Raw and Cropped data can be directly called from the
   varialbe like the one given below<>
@@ -29,3 +30,6 @@ and uses MATLAB's built in <I>"gpuArray"</I> function and <I>"gather"</I> functi
 <H3><B><I>window_expt.m</I></B></H3>
 <p>I primed this file to primarily to understand about the windows that I can use in this case for my analysis
   .But at the end I decided to roll with <i>kaiser</i> window for now atleast</p>
+<H3><B><I>procDD.m</I></B></H3>
+<p>This file takes the GPU arrays and plots them down to the CPU and does a bunch signal statistics operations like <i>spectral enrtopy</i>, 
+  <i>power spectrum</i>, <i>kurtosis</i>, <i>window optimization</i>. This script will be further expanded and modified in the due course of this thing</p>
