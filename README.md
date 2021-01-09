@@ -25,3 +25,4 @@ and uses MATLAB's built in <I>"gpuArray"</I> function and <I>"gather"</I> functi
   varialbe like the one given below<>
   <p>plot(foo.RawData)</p>
   <p>plot(foo.CroppedData)</p>
+<b>Apart from this I have added 1 single sample of the signal which is around 7MB and has data in it's description</b>
