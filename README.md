@@ -26,3 +26,6 @@ and uses MATLAB's built in <I>"gpuArray"</I> function and <I>"gather"</I> functi
   <p>plot(foo.RawData)</p>
   <p>plot(foo.CroppedData)</p>
 <b>Apart from this I have added 1 single sample of the signal which is around 7MB and has data in it's description</b>
+<H3><B><I>window_expt.m</I></B></H3>
+<p>I primed this file to primarily to understand about the windows that I can use in this case for my analysis
+  .But at the end I decided to roll with <i>kaiser</i> window for now atleast</p>
