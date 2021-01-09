@@ -1,0 +1,73 @@
+VALIDATION REPORT
+Profile: local
+Scheduler Type: Local
+
+Stage: Cluster connection test (parcluster)
+Status: Passed
+Start Time: Wed Jan 06 05:04:21 IST 2021
+Finish Time: Wed Jan 06 05:04:33 IST 2021
+Running Duration: 0 min 12 sec
+Description: 
+Error Report: 
+Command Line Output: 
+Debug Log: 
+
+Stage: Job test (createJob)
+Status: Passed
+Start Time: Wed Jan 06 05:04:33 IST 2021
+Finish Time: Wed Jan 06 05:05:30 IST 2021
+Running Duration: 0 min 57 sec
+Description: 
+Error Report: 
+Command Line Output: 
+Debug Log: 
+
+Stage: SPMD job test (createCommunicatingJob)
+Status: Passed
+Start Time: Wed Jan 06 05:05:30 IST 2021
+Finish Time: Wed Jan 06 05:07:55 IST 2021
+Running Duration: 2 min 25 sec
+Description: Job ran with 8 workers.
+Error Report: 
+Command Line Output: 
+Debug Log: 
+
+Stage: Pool job test (createCommunicatingJob)
+Status: Passed
+Start Time: Wed Jan 06 05:07:56 IST 2021
+Finish Time: Wed Jan 06 05:10:03 IST 2021
+Running Duration: 2 min 6 sec
+Description: Job ran with 8 workers.
+Error Report: 
+Command Line Output: 
+Debug Log: 
+
+Stage: Parallel pool test (parpool)
+Status: Passed
+Start Time: Wed Jan 06 05:10:03 IST 2021
+Finish Time: Wed Jan 06 05:17:33 IST 2021
+Running Duration: 7 min 29 sec
+Description: Parallel pool ran with 8 workers.
+Error Report: 
+Command Line Output: Checking communicating job status.
+Checking communicating job status.
+Checking communicating job status.
+Checking communicating job status.
+Checking communicating job status.
+Checking communicating job status.
+Checking communicating job status.
+Checking communicating job status.
+Checking communicating job status.
+Checking communicating job status.
+Checking communicating job status.
+Checking communicating job status.
+Checking communicating job status.
+Checking communicating job status.
+Checking communicating job status.
+Currently connected to: 7
+Currently connected to: 8
+Checking communicating job status.
+Checking communicating job status.
+Connected to the parallel pool (number of workers: 8).
+Parallel pool using the 'local' profile is shutting down.
+Debug Log: 
