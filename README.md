@@ -35,5 +35,5 @@ and uses MATLAB's built in <I>"gpuArray"</I> function and <I>"gather"</I> functi
   <i>power spectrum</i>, <i>kurtosis</i>, <i>window optimization</i>. This script will be further expanded and modified in the due course of this thing</p>
 
 <H1>References and Ciatation</H1>
-[1]. <iframe width="100%" height="600" src="https://ieee-dataport.org/open-access/drone-remote-controller-rf-signal-dataset/embed" frameborder="0" class="embed-textarea" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe> <br />
+[1]: <iframe width="100%" height="600" src="https://ieee-dataport.org/open-access/drone-remote-controller-rf-signal-dataset/embed" frameborder="0" class="embed-textarea" allowfullscreen="true" webkitallowfullscreen="true" mozallowfullscreen="true"></iframe> <br />
 [2]. Martins Ezuma, Fatih Erden, Chethan K. Anjinappa, Ozgur Ozdemir, Ismail Guvenc, November 25, 2020, "Drone Remote Controller RF Signal Dataset", IEEE Dataport, doi: https://dx.doi.org/10.21227/ss99-8d56.
