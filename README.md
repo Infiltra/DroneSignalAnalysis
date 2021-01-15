@@ -33,3 +33,6 @@ and uses MATLAB's built in <I>"gpuArray"</I> function and <I>"gather"</I> functi
 <H3><B><I>procDD.m</I></B></H3>
 <p>This file takes the GPU arrays and plots them down to the CPU and does a bunch signal statistics operations like <i>spectral enrtopy</i>, 
   <i>power spectrum</i>, <i>kurtosis</i>, <i>window optimization</i>. This script will be further expanded and modified in the due course of this thing</p>
+
+<H1>References and Ciatation</H1>
+[1]. Martins Ezuma, Fatih Erden, Chethan K. Anjinappa, Ozgur Ozdemir, Ismail Guvenc, November 25, 2020, "Drone Remote Controller RF Signal Dataset", IEEE Dataport, doi: https://dx.doi.org/10.21227/ss99-8d56.
